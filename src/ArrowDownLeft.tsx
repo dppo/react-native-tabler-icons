@@ -1,0 +1,18 @@
+import * as React from 'react';
+import Svg, { SvgProps, Path } from 'react-native-svg';
+const SvgArrowDownLeft = (props: SvgProps) => (
+  <Svg
+    viewBox="0 0 24 24"
+    strokeWidth={2}
+    stroke="currentColor"
+    fill="none"
+    strokeLinecap="round"
+    strokeLinejoin="round"
+    {...props}
+  >
+    <Path stroke="none" d="M0 0h24v24H0z" fill="none" />
+    <Path d="M17 7l-10 10" />
+    <Path d="M16 17l-9 0l0 -9" />
+  </Svg>
+);
+export default SvgArrowDownLeft;

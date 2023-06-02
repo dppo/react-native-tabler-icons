@@ -1,0 +1,21 @@
+import * as React from 'react';
+import Svg, { SvgProps, Path } from 'react-native-svg';
+const SvgWhirl = (props: SvgProps) => (
+  <Svg
+    viewBox="0 0 24 24"
+    strokeWidth={2}
+    stroke="currentColor"
+    fill="none"
+    strokeLinecap="round"
+    strokeLinejoin="round"
+    {...props}
+  >
+    <Path stroke="none" d="M0 0h24v24H0z" fill="none" />
+    <Path d="M14 12a2 2 0 1 0 -4 0a2 2 0 0 0 4 0z" />
+    <Path d="M12 21c-3.314 0 -6 -2.462 -6 -5.5s2.686 -5.5 6 -5.5" />
+    <Path d="M21 12c0 3.314 -2.462 6 -5.5 6s-5.5 -2.686 -5.5 -6" />
+    <Path d="M12 14c3.314 0 6 -2.462 6 -5.5s-2.686 -5.5 -6 -5.5" />
+    <Path d="M14 12c0 -3.314 -2.462 -6 -5.5 -6s-5.5 2.686 -5.5 6" />
+  </Svg>
+);
+export default SvgWhirl;
