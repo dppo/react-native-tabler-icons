@@ -49,6 +49,7 @@
   },
   "homepage": "https://github.com/dppo/react-native-tabler-icons#readme",
   "publishConfig": {
+    "access": "public",
     "registry": "https://registry.npmjs.org/"
   },
   "devDependencies": {
