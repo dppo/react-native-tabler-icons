@@ -1,7 +1,7 @@
 import * as React from 'react';
 
 import { StyleSheet, View } from 'react-native';
-import { Svg24Hours } from 'react-native-tabler-icons';
+import { Svg24Hours } from '@dppo/react-native-tabler-icons';
 
 export default function App() {
   return (

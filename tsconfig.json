@@ -2,7 +2,7 @@
   "compilerOptions": {
     "baseUrl": "./",
     "paths": {
-      "react-native-tabler-icons": ["./src/index"]
+      "@dppo/react-native-tabler-icons": ["./src/index"]
     },
     "allowUnreachableCode": false,
     "allowUnusedLabels": false,
